@@ -1,3 +1,4 @@
+
 # Terraform Setup for Creating Kinesis Firehose to Send CloudWatch Metric Stream
 
 This Terraform setup allows you to create a Kinesis Firehose delivery stream to send CloudWatch metric data. This README provides an overview of the files included in this repository and instructions on how to use them.
@@ -13,7 +14,6 @@ Before you begin, ensure you have the following:
 
 - `variables.tf`: Contains the variable declarations used in the Terraform configuration.
 - `main.tf`: Contains the main Terraform configuration for creating the Kinesis Firehose delivery stream.
-- `terraform.tfvars`: Example file to supply values for the variables.
 
 ## Variables
 
@@ -73,7 +73,7 @@ To avoid incurring unnecessary costs, you can destroy the resources created by T
 
 ```bash
 terraform destroy
-
+```
 
 ## Output
 
