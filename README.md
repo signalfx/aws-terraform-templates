@@ -20,7 +20,7 @@ Before you begin, ensure you have the following:
 The following variables can be supplied via a `.tfvars` file:
 
 - `splunk_access_token`: Copy your Splunk Observability access token with INGEST authorization scope from Settings > Access Tokens.
-- `splunk_ingest_url`: Find the real-time data ingest URL in Profile > Account Settings > Endpoints. Note: do NOT include endpoint path here: for instance use https://ingest.us1.signalfx.com instead of https://ingest.us1.signalfx.com/v1/cloudwatch_metric_stream.
+- `splunk_ingest_url`: Copy the Real-time Data Ingest Endpoint value from My Profile > Organizations.
 - `AWS_REGION`: AWS Region where the resources will be created.
 
 ## Usage
